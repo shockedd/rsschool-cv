@@ -1,0 +1,10 @@
+.container {
+    margin: 20px auto;
+  width: 1024px;
+  font-family: "Cabin", sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  background-color: #ffffff;
+  box-shadow: 10px 10px 40px -1px rgba(0, 0, 0, 0.23);
+}
+
