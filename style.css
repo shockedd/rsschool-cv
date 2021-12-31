@@ -12,6 +12,35 @@ h1 {
   margin:0;
 }
 
+h2 {
+  margin: 15px 0px 10px 0px;
+}
+
+a {
+  color: white;
+}
+
+@media (min-width: 00px) {
+code {
+  background: #2c2c2c;
+    color: #fff;
+    display: flex;
+    overflow-x: auto;
+    padding: 1em;
+    justify-content: center;
+    padding: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    border:1px solid rgb(77, 70, 75);
+}
+
+@media (min-width: 600px) {
+pre {
+    margin: 0 auto;
+    width: 600px;
+}
+}
+
 @media (min-width: 600px) {
   .container {
       margin: 20px auto;
@@ -19,6 +48,7 @@ h1 {
     font-size: 18px;
     line-height: 1.5;
     background-color: #1717185c;
+    text-align: left;
     box-shadow: 10px 10px 40px -1px rgba(0, 0, 0, 0.23);
     border: 1px solid #00000029;
   }
@@ -40,7 +70,9 @@ h1 {
 
 .main_list {
   list-style: none;
-  padding: 0;
+    padding: 0;
+    margin: 0px;
+    
 }
 
 .container_flex {
@@ -63,7 +95,7 @@ flex-wrap: wrap;
 }
 header img {
   margin-bottom: 10px;
-  border: 4px solid #a0a096;
+  border: 1px solid #ffffff;
   border-radius: 50%;
 }
 
@@ -79,4 +111,16 @@ header img {
 
 p {
   margin: 10px;
+}
+
+.text_left {
+  max-width: 400px;
+  align-content: center;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
 }
