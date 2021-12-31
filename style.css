@@ -12,14 +12,18 @@ h1 {
   margin:0;
 }
 
-.container {
-    margin: 20px auto;
-    width: 1440px;
-  font-size: 18px;
-  line-height: 1.5;
-  background-color: #171718;
-  box-shadow: 10px 10px 40px -1px rgba(0, 0, 0, 0.23);
-}
+@media (min-width: 600px) {
+  .container {
+      margin: 20px auto;
+      max-width: 1200px;
+    font-size: 18px;
+    line-height: 1.5;
+    background-color: #1717185c;
+    box-shadow: 10px 10px 40px -1px rgba(0, 0, 0, 0.23);
+    border: 1px solid #00000029;
+  }
+  }
+
 
 .main_contacts {
   width: 100%;
@@ -73,3 +77,6 @@ header img {
   font-size: 20px;
 }
 
+p {
+  margin: 10px;
+}
