@@ -1,0 +1,158 @@
+body {
+  display: block;
+  margin:0;
+  background-color: #1F2226;
+  font-family: DM Sans;
+font-style: normal;
+font-weight: bold;
+color: white;
+}
+
+h1 {
+  margin:0;
+}
+
+h2 {
+  margin: 15px 0px 10px 0px;
+}
+
+
+@media (min-width: 00px) {
+code {
+  background: #2c2c2c;
+    color: #fff;
+    display: flex;
+    overflow-x: auto;
+    padding: 1em;
+    justify-content: center;
+    padding: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    border:1px solid rgb(77, 70, 75);
+}
+
+@media (min-width: 600px) {
+pre {
+    margin: 0 auto;
+    width: 600px;
+}
+}
+
+@media (min-width: 600px) {
+  .container {
+      margin: 20px auto;
+      max-width: 1200px;
+    font-size: 18px;
+    line-height: 1.5;
+    background-color: #1717185c;
+    text-align: left;
+    box-shadow: 10px 10px 40px -1px rgba(0, 0, 0, 0.23);
+    border: 1px solid #00000029;
+  }
+  }
+
+
+.main_contacts {
+  width: 100%;
+}
+
+.main {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  flex-direction: column;
+  text-align: center;
+}
+
+.main_list {
+  list-style: none;
+    padding: 0;
+    margin: 0px;
+    
+}
+
+.container_flex {
+display: flex;
+justify-content: flex-start;
+flex-wrap: wrap;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  background-image: url(img/pink-gradient.jpg);
+  margin-bottom: 10px;
+}
+
+.header_info {
+  margin: 40px;
+}
+header img {
+  margin-bottom: 10px;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+}
+
+.heading_color_bg {
+  background-color: rgb(254 83 141);
+    padding: 0px 10px 0px 10px;
+    border-radius: 3%;
+}
+
+.header_description {
+  font-size: 20px;
+}
+
+p {
+  margin: 10px;
+}
+
+.text_left {
+  max-width: 400px;
+  align-content: center;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+  color: white;
+}
+
+footer {
+  display: flex;
+    width: 100%;
+    background-color: rgb(31 34 38);
+    height: 120px;
+    margin-top: 40px;
+}
+
+.footer-nav{
+  display: flex;
+  width:100%;
+  justify-content: center;
+}
+
+.footer-nav-list {
+  width: 85%;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  align-items:center;
+  padding-left: 0px;
+}
+
+.footer-nav-items {
+  display: block;
+}
+
+.footer-nav-items-1 {
+  margin-left: 70px;
+}
