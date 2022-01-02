@@ -125,3 +125,34 @@ p {
 a {
   color: white;
 }
+
+footer {
+  display: flex;
+    width: 100%;
+    background-color: rgb(31 34 38);
+    height: 120px;
+    margin-top: 40px;
+}
+
+.footer-nav{
+  display: flex;
+  width:100%;
+  justify-content: center;
+}
+
+.footer-nav-list {
+  width: 85%;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  align-items:center;
+  padding-left: 0px;
+}
+
+.footer-nav-items {
+  display: block;
+}
+
+.footer-nav-items-1 {
+  margin-left: 70px;
+}
