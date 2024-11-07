@@ -12,8 +12,8 @@ I'm good boy
 
 # Code example
 console.log {
-    "privet";
-}
+    "privet"
+};
 
 # Languages:
 
